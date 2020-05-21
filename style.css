@@ -22,6 +22,7 @@ li {
 a {
     text-decoration: none;
     color: #333;
+    cursor: pointer;
 }
 
 p {
@@ -90,7 +91,7 @@ p {
 #features {
     max-width: 1140px;
     width: 70%;
-    margin: 2rem auto;
+    margin: 12rem auto 3rem auto;
 }
 
 #features .delivery-item {
@@ -132,7 +133,7 @@ p {
 #pricing {
     max-width: 1280px;
     width: 90rem;
-    margin: 2rem auto;
+    margin: 3rem auto;
     display: flex;
     justify-content: space-between;
 }
@@ -168,4 +169,31 @@ p {
 
 #pricing .box button:hover {
     background: orange;
+}
+
+#footer {
+    max-width: 1280px;
+    width: 95rem;
+    margin: 0 auto;
+    padding: 1rem;
+    background: #ddd;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#footer p:first-of-type {
+    margin: 0;
+}
+
+#footer p:first-of-type a {
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+
+#footer p:last-of-type {
+    font-size: 1.2rem;
+    margin: 0;
 }
