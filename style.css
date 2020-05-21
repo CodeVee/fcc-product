@@ -87,36 +87,45 @@ p {
     background: orange;
 }
 
-#delivery {
+#features {
     max-width: 1140px;
     width: 70%;
     margin: 2rem auto;
 }
 
-#delivery .delivery-item {
+#features .delivery-item {
     display: flex;
     margin-bottom: 3rem;
 }
 
-#delivery .delivery-item i {
+#features .delivery-item i {
     color: darkorange;
     padding: 1rem 4rem;
     font-size: 5rem;
 }
 
-#delivery .delivery-item:first-of-type i {
+#features .delivery-item:first-of-type i {
     margin-right: 2.5rem;
 }
 
-
-#delivery .delivery-item .delivery-item-text {
+#features .delivery-item .delivery-item-text {
     margin-left: 1rem;
 }
 
-#delivery .delivery-item .delivery-item-text h2 {
+#features .delivery-item .delivery-item-text h2 {
     font-size: 2rem;
 }
 
-#delivery .delivery-item .delivery-item-text p {
+#features .delivery-item .delivery-item-text p {
     font-size: 1.5rem;
+}
+
+#works {
+    max-width: 1280px;
+    margin: 2rem 0;
+}
+
+#works #video {
+    margin-left: 40rem;
+    background-color: darkorange;
 }
