@@ -52,3 +52,37 @@ p {
 #header #nav-bar ul li .nav-link {
     font-size: 1.8rem;
 }
+
+#subscription {
+    max-width: 1280px;
+    text-align: center;
+}
+
+#subscription h2 {
+    font-size: 3rem;
+}
+
+#subscription #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#subscription #form #email {
+    width: 30rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+#subscription #form input[type="submit"] {
+    background: #f1c40f;
+    border: none;
+    padding: 1rem 2.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    font-size: 1.7rem;
+}
+
+#subscription #form input[type="submit"]:hover {
+    background: orange;
+}
