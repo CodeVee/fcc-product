@@ -122,10 +122,50 @@ p {
 
 #works {
     max-width: 1280px;
-    margin: 2rem 0;
+    margin: 2rem auto;
 }
 
 #works #video {
     margin-left: 40rem;
-    background-color: darkorange;
+}
+
+#pricing {
+    max-width: 1280px;
+    width: 90rem;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pricing .box {
+    height: 30rem;
+    flex-basis: 32%;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+#pricing .box div:first-of-type {
+    background: #ddd;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+#pricing .box > h2 {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+#pricing .box div:last-of-type {
+    font-size: 1.6rem;
+}
+
+#pricing .box button {
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    background: #f1c40f;
+    border: none;
+}
+
+#pricing .box button:hover {
+    background: orange;
 }
