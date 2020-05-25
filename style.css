@@ -29,6 +29,12 @@ p {
     margin: .75rem 0;
 }
 
+input[type="email"],
+input[type="submit"] {
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
 #header {
     max-width: 1280px;
     padding: 2rem;
